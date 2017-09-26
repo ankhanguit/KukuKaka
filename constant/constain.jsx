@@ -1,0 +1,1 @@
+export const MIN_DATE = '-999999999-01-01T00:00:00';
