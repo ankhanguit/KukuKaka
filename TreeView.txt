@@ -1,1 +1,32 @@
 
+Project
+  + node_modules
+  + src
+    + actions
+      - ABCDFAction.jsx
+      - SystemInitAction.jsx
+      - commonAction.js
+    + components
+      - Header.jsx
+      - Login.jsx
+    + constants
+      - 
+      - 
+    + containers
+      - Layout.jsx
+      - Menu.jsx
+    + reactBootstrap
+    + reducers
+      - LoginReducer.jsx
+      - SystemInitReducer.jsx
+      - index.jsx
+      - commonReducer.js
+    + sagas
+      - index.jsx
+    + store
+      - configureStore.jsx
+    + utils
+      - 
+      -
+  + static
+    
