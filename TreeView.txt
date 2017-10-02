@@ -22,11 +22,13 @@ Project
       - index.jsx
       - commonReducer.js
     + sagas
-      - index.jsx
+      - index.jsx (sagas.jsx)
     + store
       - configureStore.jsx
     + utils
-      - 
-      -
+    - index.html
+    - index.jsx
+    - main.css
+    - myThemeFile.jsx
   + static
     
