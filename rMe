@@ -1,0 +1,78 @@
+# README
+
+## Pre Requirements(事前準備)
+
+### Installation of Node.js
+#### Installing Nodist
+Download `NodistSetup - v0.7.2` from the following site.
+<https://github.com/marcelklehr/nodist/releases/tag/v0.7.2>
+Use the command prompt to verify that nodist is installed and the command is ready to use.
+```
+nodist -v
+```
+Update the nodist dependency file.
+```
+nodist update
+```
+#### Installation of Node.js
+Install the latest stabilizer of node.js.
+```
+nodist stable
+```
+#### Update npm
+Check the version of npm.
+```
+npm version
+```
+Next, update npm.
+```
+npm update -g npm
+```
+## Operation after checkout
+
+After checking out the project, execute the following command in the root directory of the project.
+```
+npm install
+```
+After waiting for a while, the necessary files are installed in the `node_modules` directory.
+### Starting the Development Server
+Execute the following command
+```
+npm run start
+```
+## Supplement for development environment
+### Atom
+#### Download and install
+Download it from the following URL and install it.
+<https://atom.io/>
+#### Recommended plug-in
+As an extended function, you can use it conveniently by putting the following.
+- atom-beautify
+- Sublime-style-column-selection
+- autoclose-html
+- autocomplete-json
+- editorconfig
+- file-icons
+- highlight-column
+- highlight-line
+- japan-util
+- japanese-menu
+- linter
+- linter-csslint
+- linter-eslint
+- linter-htmlhint
+- minimap
+- open-recent
+- pigments
+- project-manager
+- react
+- script
+- show-ideographic-space
+- symbols-tree-view
+- langurage-api-blueprint
+#### Supplement
+**The terminal - plus ** plug - in does not work on Windows 10. Since you can not start a task from an editor like Visual Studio Code, start ** Command Prompt ** separately from the editor and set the project root as the current directory.
+### Chrome
+#### Recommended plug-in
+If you put the following plug-in, the React tab will be displayed in the debug window.
+- React Developer Tools
