@@ -1,0 +1,9 @@
+export const LOGIN = 'LOGIN';
+export const LOG_OUT= 'LOG_OUT';
+export const INIT = 'INIT';
+export const INIT_EMPTY = 'INIT_EMPTY';
+export const CHOOSE = 'CHOOSE';
+export const SEARCH = 'SEARCH';
+export const RECEIVE = 'RECEIVE';
+export const ADD_NEW = 'ADD_NEW';
+export const EDIT = 'EDIT';
